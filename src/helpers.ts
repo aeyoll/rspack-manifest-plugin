@@ -1,6 +1,6 @@
 import { dirname, join, basename } from 'path';
 
-import { AssetInfo, Chunk, Asset, Compilation } from 'webpack';
+import { AssetInfo, Chunk, Asset, Compilation } from '@rspack/core';
 
 import { InternalOptions, Manifest } from './';
 

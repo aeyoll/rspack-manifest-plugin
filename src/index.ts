@@ -1,7 +1,7 @@
 import { relative, resolve } from 'path';
 
 import { SyncHook } from 'tapable';
-import { Compiler, WebpackPluginInstance, Compilation } from 'webpack';
+import { Compiler, WebpackPluginInstance, Compilation } from '@rspack/core';
 // @ts-ignore
 import NormalModule from 'webpack/lib/NormalModule';
 
